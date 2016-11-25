@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>2.4. 列表练习</title><link rel="stylesheet" type="text/css" href="Common_Content/css/default.css" /><link rel="stylesheet" media="print" href="Common_Content/css/print.css" type="text/css" /><meta name="generator" content="publican 3.2.0" /><meta name="package" content="Python_manual-demo-2.0-zh-CN-0.0-0" /><link rel="home" href="index.html" title="demo" /><link rel="up" href="chap-Documentation-demo-Test_Chapter1.html" title="第 2 章 Python数据结构" /><link rel="prev" href="sect-Documentation-demo-Test_Chapter1-Test_Section_3.html" title="2.3. 集合(set）" /><link rel="next" href="sect-Documentation-demo-Test_Chapter1-Test_Section_5.html" title="2.5. 数据结构字典练习" /></head><body><p id="title"><a class="left" href="https://fedorahosted.org/publican"><img alt="Product Site" src="Common_Content/images//image_left.png" /></a><a class="right" href="https://fedorahosted.org/publican"><img alt="Documentation Site" src="Common_Content/images//image_right.png" /></a></p><ul class="docnav top"><li class="previous"><a accesskey="p" href="sect-Documentation-demo-Test_Chapter1-Test_Section_3.html"><strong>上一页</strong></a></li><li class="home">demo</li><li class="next"><a accesskey="n" href="sect-Documentation-demo-Test_Chapter1-Test_Section_5.html"><strong>下一页</strong></a></li></ul><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="sect-Documentation-demo-Test_Chapter1-Test_Section_4"></a>2.4. 列表练习</h2></div></div></div><div class="para">
+			列表练习主要训练列表的基本语法和灵活运用，达到融汇贯通的目的
+		</div><div class="para">
+			list1 = [ 'keyman' , 'wisdom' , '1' , 100 , 20 , 1.1 , ['nes1' , 'nes2' , [ 'ness1' , 'ness2' ] ] ]
+		</div><div class="important"><div class="admonition_header"><p><strong>Important</strong></p></div><div class="admonition"><div class="para">
+				在完成一道题目的练习时，请务必将list1的状态还原为[ 'keyman' , 'wisdom' , '1' , 100 , 20 , 1.1 , ['nes1' , 'nes2' , [ 'ness1' , 'ness2' ] ] ]
+			</div></div></div><div class="orderedlist"><ol><li class="listitem"><div class="para">
+					‘ness1’的索引为多少？，代码如何书写？
+				</div></li><li class="listitem"><div class="para">
+					如何删除list1中的‘nes1’元素？代码怎么写？
+				</div></li><li class="listitem"><div class="para">
+					list1有多少个元素组成？
+				</div></li><li class="listitem"><div class="para">
+					请使用pop方法将100 删除，代码怎么写
+				</div></li><li class="listitem"><div class="para">
+					list1.pop()执行后，list1的输出是什么？
+				</div></li><li class="listitem"><div class="para">
+					将字符串"last_one"，添加到list1的-1位置索引
+				</div></li><li class="listitem"><div class="para">
+					执行什么代码 能得到这样的输出[ 'keyman' , 'wisdom' , '1' , 100 , 20 , 1.1 , ['nes1'] ]
+				</div></li><li class="listitem"><div class="para">
+					执行什么代码 能得到这样的输出[ 'keyman' , 'wisdom' , '1' , 100 , 20 , 1.1 , 1,2,3,4,5,6 ]
+				</div></li><li class="listitem"><div class="para">
+					字符串keyman在list1中出现了多少次？
+				</div></li><li class="listitem"><div class="para">
+					list1正排序的输出是什么，反排序的结果又是什么？
+				</div></li><li class="listitem"><div class="para">
+					描述list1.sort 和 list1.reverse方法的功能
+				</div></li><li class="listitem"><div class="para">
+					list1[list1.index('1')]='strings' 将输出什么？
+				</div></li><li class="listitem"><div class="para">
+					list1.remove(list1[len(list1)-1])输出的结果为['keyman', 'wisdom', 'strings', 100, 20, 1.1]，是否正确？
+				</div></li><li class="listitem"><div class="para">
+					list1.remove(list1[len(list1)-1])输出的结果为['keyman', 'wisdom', 'strings', 100, 20, 1.1]，是否正确？
+				</div></li><li class="listitem"><div class="para">
+					list1.remove(list1(len(list1-1)))输出的结果为['keyman', 'wisdom', 'strings', 100, 20, 1.1]，是否正确？
+				</div></li><li class="listitem"><div class="para">
+					list1[1] = 'index1' 与 list1.insert(1,'index1')是等价的，只是语法不同，正确吗？请说明原因
+				</div></li><li class="listitem"><div class="para">
+					list1[1:1] 得到什么?
+				</div></li><li class="listitem"><div class="para">
+					list1[1::] 得到什么?
+				</div></li><li class="listitem"><div class="para">
+					print list1[0::] 得到什么? 该语句与print list1 和 list1[::]等价，
+				</div></li><li class="listitem"><div class="para">
+					print list1[0:-1：-1] 得到什么?
+				</div></li><li class="listitem"><div class="para">
+					print list1[0:-1:2] 得到什么?
+				</div></li><li class="listitem"><div class="para">
+					print list1 + [10,20,30] 得到什么 ? 与list1.extend(range(10,20,30)) 有什么关系
+				</div></li><li class="listitem"><div class="para">
+					print list1[3] * 3 得到什么 ?
+				</div></li></ol></div></div><ul class="docnav"><li class="previous"><a accesskey="p" href="sect-Documentation-demo-Test_Chapter1-Test_Section_3.html"><strong>上一页</strong>2.3. 集合(set）</a></li><li class="up"><a accesskey="u" href="#"><strong>上一级</strong></a></li><li class="home"><a accesskey="h" href="index.html"><strong>起始页</strong></a></li><li class="next"><a accesskey="n" href="sect-Documentation-demo-Test_Chapter1-Test_Section_5.html"><strong>下一页</strong>2.5. 数据结构字典练习</a></li></ul></body></html>
